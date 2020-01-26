@@ -18,6 +18,7 @@ class Square extends React.Component{
     }
 }
 
+/* Refactor Square component to a function component */
 
 class Board extends React.Component{
     constructor(props){
