@@ -2,8 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-
-
 // Refactored Square component to a function component 
 function Square(props){
     return(
@@ -87,8 +85,6 @@ class Game extends React.Component{
       );
     }
 }
-
-
 
 function calculateWinner(squares){
     const lines = [
